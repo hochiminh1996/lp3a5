@@ -45,7 +45,7 @@ public class MinhaThread implements Runnable{
 }
 
 ```
-
+<strong>Observação: não é possível executar duas vezes a mesma thread, via start. Isso irá gerar uma exceção.</strong>
 
 
 
