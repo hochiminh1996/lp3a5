@@ -38,9 +38,9 @@ public class MinhaThread implements Runnable{
 
   @Override
   public void run(){
-    System.out.println("Olá, mundo!");
-		System.out.println(Thread.currentThread().getName());
-		//retorna o nome da thread que está em execução
+    	System.out.println("Olá, mundo!");
+	System.out.println(Thread.currentThread().getName());
+	//retorna o nome da thread que está em execução
   }
 }
 
