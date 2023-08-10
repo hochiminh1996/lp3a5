@@ -48,5 +48,14 @@ public class MinhaThread implements Runnable{
 <strong>Observação: não é possível executar duas vezes a mesma thread, via start. Isso irá gerar uma exceção.</strong>
 
 
+<h2>Diferença entre thread e paralelismo:</h2>
+<p align="justify">A principal diferença entre threads e paralelismo é que as threads são unidades de execução concorrente dentro de um único processo, enquanto o paralelismo envolve a execução simultânea de múltiplos processos independentes ou tarefas em hardware separado, como núcleos de CPU ou processadores diferentes.</p>
+
+<p align="justify">Em outras palavras, threads estão relacionadas à execução concorrente dentro de um programa, enquanto o paralelismo refere-se à execução simultânea de vários programas ou tarefas distintas. Embora threads possam ser usadas para criar paralelismo em um programa, o paralelismo também pode ser alcançado com múltiplos programas independentes sendo executados ao mesmo tempo.</p>
+
+
+
+
+
 
 
