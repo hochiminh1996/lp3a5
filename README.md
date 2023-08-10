@@ -16,6 +16,20 @@
 <p align="justify"><strong>O que é uma thread: </strong>Uma thread em Java é uma unidade básica de processamento dentro de um programa, que permite a execução concorrente de tarefas. Cada thread representa um fluxo de execução independente, permitindo que um programa realize várias operações ao mesmo tempo. Threads podem ser usadas para melhorar a eficiência, paralelizar tarefas e lidar com operações assíncronas, como interações de rede ou cálculos intensivos, sem bloquear a execução principal do programa.
 </p>
 
+Criando uma thread
+```
+public static void main(String[]args){
+
+  Thread t = new Thread(new MinhaThread);
+  t.run();//executa o método implementando na classe minhathread
+  t.start();//inicia a thread que foi criada. Sem a chamada ao método start, o método run é executado
+  //dentro da thread padrão. No caso, a padrão é a main.
+
+  System.out.println("Nome da thread: "+Thread.currentThread().getName());
+  //retorna o nome da thread que está em execução
+}
+```
+
 
 
 
