@@ -13,7 +13,7 @@
 
 <h2>Conceitos básicos
 </h2>
-<p align="justify"><strong>O que é uma thread: </strong>Uma thread em Java é uma unidade básica de processamento dentro de um programa, que permite a execução concorrente de tarefas. Cada thread representa um fluxo de execução independente, permitindo que um programa realize várias operações ao mesmo tempo. Threads podem ser usadas para melhorar a eficiência, paralelizar tarefas e lidar com operações assíncronas, como interações de rede ou cálculos intensivos, sem bloquear a execução principal do programa. Além disso, o processador é responsável por gerenciar qual thread irá executar e, em alguns casos, ele pode executar alguma delas fora da ordem definida. 
+<p align="justify"><strong>O que é uma thread: </strong>Uma thread em Java é uma unidade básica de processamento dentro de um programa, que permite a execução concorrente de tarefas. Cada thread representa um fluxo de execução independente, permitindo que um programa realize várias operações ao mesmo tempo. Threads podem ser usadas para melhorar a eficiência, paralelizar tarefas e lidar com operações assíncronas, como interações de rede ou cálculos intensivos, sem bloquear a execução principal do programa. Além disso, o processador é responsável por gerenciar qual thread irá executar e, em alguns casos, ele pode executar alguma delas fora da ordem definida (isso vai depender da prioridade que o processador/SO definiu). 
 </p>
 
 Criando uma thread
