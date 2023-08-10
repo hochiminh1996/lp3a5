@@ -11,6 +11,10 @@
 * <strong>Sincronização:</strong> Aprender técnicas para sincronizar o acesso a recursos compartilhados e evitar problemas como condições de corrida e deadlocks.
 * <strong>Programação Paralela:</strong> Utilizar as facilidades oferecidas pelo Java para criar programas que executam tarefas em paralelo, tirando proveito dos processadores multicore.
 
+<h2>Conceitos básicos
+</h2>
+<p align="justify"><strong>O que é uma thread: </strong>Uma thread em Java é uma unidade básica de processamento dentro de um programa, que permite a execução concorrente de tarefas. Cada thread representa um fluxo de execução independente, permitindo que um programa realize várias operações ao mesmo tempo. Threads podem ser usadas para melhorar a eficiência, paralelizar tarefas e lidar com operações assíncronas, como interações de rede ou cálculos intensivos, sem bloquear a execução principal do programa.
+</p>
 
 
 
