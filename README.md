@@ -21,13 +21,30 @@ Criando uma thread
 public static void main(String[]args){
 
   Thread t = new Thread(new MinhaThread);
-  t.run();//executa o método implementando na classe minhathread
-  t.start();//inicia a thread que foi criada. Sem a chamada ao método start, o método run é executado
-  //dentro da thread padrão. No caso, a padrão é a main.
+  // estamos passando uma instância de classe(new MinhaThread) que irá implementar a interface runnable
+
+  t.run();// executa o método implementando na classe minhathread
+  t.start();// inicia a thread que foi criada. Sem a chamada ao método start, o método run é executado
+  // dentro da thread padrão. No caso, a padrão é a main.
 
   System.out.println("Nome da thread: "+Thread.currentThread().getName());
-  //retorna o nome da thread que está em execução
+  // retorna o nome da thread que está em execução
 }
+
+// classe MinhaThread
+public class MinhaThread implements Runnable{
+ // vai implementar uma interface chamada runnable, que possui apenas o método run
+ // runnable significa executavel
+
+  @Override
+  public void run(){
+    System.out.println("Olá, mundo!");
+		System.out.println(Thread.currentThread().getName());
+		//retorna o nome da thread que está em execução
+  }
+}
+
+
 ```
 
 
