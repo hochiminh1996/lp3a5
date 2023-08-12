@@ -21,7 +21,7 @@ Criando uma thread
 public static void main(String[]args){
 
   Thread t = new Thread(new MinhaThread);
-  // estamos passando uma instância de classe(new MinhaThread) que irá implementar a interface runnable
+  // estamos passando uma instância de classe(new MinhaThread()) que irá implementar a interface runnable
 
   t.run();// executa o método implementando na classe minhathread
   t.start();// inicia a thread que foi criada. Sem a chamada ao método start, o método run é executado
