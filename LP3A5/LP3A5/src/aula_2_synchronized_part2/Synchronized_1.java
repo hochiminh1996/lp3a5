@@ -39,6 +39,7 @@ public class Synchronized_1 {
 			 * instância de meurunnable por vez. Logo, ele imprimirá a ordem correta de (i)
 			 * Afinal, elas não estão mais competindo simultaneamente pelo recurso (i)
 			 * 
+			 * No entanto, nesse caso você destrói o paralelismo, o que fica meio inútil
 			 */
 
 		}
