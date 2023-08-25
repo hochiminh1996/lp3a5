@@ -53,7 +53,6 @@ public class MinhaThread implements Runnable{
 
 <p align="justify">Em outras palavras, threads estão relacionadas à execução concorrente dentro de um programa, enquanto o paralelismo refere-se à execução simultânea de vários programas ou tarefas distintas. <strong>Embora threads possam ser usadas para criar paralelismo em um programa, o paralelismo também pode ser alcançado com múltiplos programas independentes sendo executados ao mesmo tempo.</strong></p>
 
-<h3>Synchronized</h3>
 
 
 
