@@ -58,6 +58,7 @@ public class MinhaThread implements Runnable{
 
 <p text-align="justify"><strong>Algoritmo do Banqueiro:</strong> É um algoritmo utilizado em sistemas operacionais para prevenir impasses (deadlocks) em sistemas que compartilham recursos entre processos (gerencia de recursos). Ele faz isso alocando recursos de forma segura, levando em consideração as necessidades dos processos e garantindo que, mesmo que todos os processos solicitem recursos simultaneamente, o sistema ainda seja capaz de evitar impasses. O algoritmo verifica se uma solicitação de recurso pode ser atendida sem causar impasses antes de concedê-lo. Em resumo, o algoritmo do banqueiro ajuda a garantir a execução segura de processos concorrentes em um sistema de computação.</p>
 
+<h2>
 
 
 
