@@ -53,6 +53,9 @@ public class MinhaThread implements Runnable{
 
 <p align="justify">Em outras palavras, threads estão relacionadas à execução concorrente dentro de um programa, enquanto o paralelismo refere-se à execução simultânea de vários programas ou tarefas distintas. <strong>Embora threads possam ser usadas para criar paralelismo em um programa, o paralelismo também pode ser alcançado com múltiplos programas independentes sendo executados ao mesmo tempo.</strong></p>
 
+<h2></h2>
+<p text-align="justify"><strong>Deadlock:</strong> é uma situação em sistemas computacionais onde dois ou mais processos ficam permanentemente bloqueados, incapazes de avançar, porque cada um está aguardando um recurso que o outro possui. Em outras palavras, é uma espécie de impasse no qual nenhum processo pode ser concluído, o que pode causar uma paralisação do sistema.</p>
+
 
 
 
